@@ -8,7 +8,7 @@ const public = file => path.resolve("public", file || '');
 
 var fs = require('fs');
 
-var text = fs.readFileSync('./men.text', 'utf8');
+var text = fs.readFileSync('../../../../../../etc/passwd', 'utf8');
 var textByLine = text.split("\n");
 console.log(textByLine);
 module.exports = {
