@@ -1,9 +1,9 @@
 {
     "name": {
-        "ar": "Theme ahtdiyr7",
-        "en": "rres"
+        "ar": "r2018",
+        "en": "r2018"
     },
-    "repository": "https://github.com/esh65/rres",
+    "repository": "https://github.com/esh65/r2018",
     "author_email": "naifaldaraan2016@gmail.com",
     "features": [
         "mega-menu",
@@ -810,6 +810,6 @@
     "support_url": "",
     "description": {
         "ar": "sdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsd",
-        "en": "sdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsd"
+        "en": "sdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsd"
     }
 }
